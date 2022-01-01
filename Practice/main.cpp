@@ -6,10 +6,16 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     //Hello
-    std::cout << "Hello, World!\n";
+    int a,b,c;
+    cout << "Hello, World!\n";
+    cout<< "Enter the two numbers";
+    cin>>a>>b;
+    c = a+b;
+    cout<<"Addition of two numbers is:"<<c;
     return 0;
 }
