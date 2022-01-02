@@ -16,6 +16,6 @@ int main(int argc, const char * argv[]) {
     cout<< "Enter the two numbers";
     cin>>a>>b;
     c = a+b;
-    cout<<"Addition of two numbers is:"<<c;
+    cout<<"Addition of two numbers is:"<<c<<endl;
     return 0;
 }
